@@ -36,6 +36,7 @@ Summary Statistics
 | Maximum            |  $3,456.40 |   $699.93 |        5 |          10 |
 
 Key Insight: The distribution of TotalPrice is moderately right-skewed. The average order value is $1,053.97, while the median order value is $823.62, indicating that a relatively small number of high-value transactions increase the overall average.
+
 Business Interpretation: Median order value provides a more realistic measure of typical customer spending than the mean because it is less affected by unusually large purchases.
 
 2. Outlier Detection (IQR Method)
@@ -49,6 +50,7 @@ The IQR method works like drawing a fence around the middle 50% of your data and
 | Quantity   |              0 |
 
 Key Insight: Eight transactions exceeded the upper IQR boundary for TotalPrice and were classified as outliers. No outliers were detected in UnitPrice or Quantity.
+
 Business Interpretation: These high-value transactions are likely legitimate purchases rather than data-entry errors. They may represent premium customers or bulk purchases that deserve targeted retention strategies.
 
 3. Correlation Analysis
@@ -63,6 +65,7 @@ Correlation measures whether two variables move together. A score close to 1.0 m
 | Quantity ↔ UnitPrice     |       0.015 |Near zero — how many items ordered has no link to unit price
 
 Key Insight: UnitPrice shows the strongest relationship with TotalPrice, indicating that product pricing has a greater influence on revenue than the quantity purchased.
+
 Business Interpretation: A strategy focused on promoting premium products may generate greater revenue growth than strategies solely focused on increasing purchase quantities.
 
 4. Pivot Table and Charts Analysis
@@ -145,6 +148,6 @@ Data Cleaning | Exploratory Data Analysis (EDA) | Descriptive Statistics | Outli
 - [Dataset_for_Data_Analytics_Project 2.xlsx](Dataset_for_Data_Analytics_Project%202.xlsx) — Complete Excel workbook containing all analyses and visualizations.
 
 ## Related Projects
-Project 1: Ecommerce Data Cleaning (https://github.com/Omowumi-A/Ecommerce-data-cleaning)
-Project 3: SQL Analysis *(coming soon)*
-Project 4: Data Visualization *(coming soon)*
+- Project 1: Ecommerce Data Cleaning (https://github.com/Omowumi-A/Ecommerce-data-cleaning)
+- Project 3: SQL Analysis *(coming soon)*
+- Project 4: Data Visualization *(coming soon)*
